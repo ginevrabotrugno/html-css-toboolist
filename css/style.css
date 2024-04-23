@@ -23,11 +23,13 @@ body {
 header {
     background-color: white;
     padding: 10px;
-}
+} 
 
 h1 {
     display: inline-block;
     font-weight: 800;
+    margin-top: 5px;
+    vertical-align: top;
 }
 
 
@@ -70,8 +72,8 @@ main {
 
 .section-list {
     padding: 10px;
-    list-style-type: none;
     margin-left: 5px;
+    list-style: none;
 }
 
 .section-item {
@@ -82,7 +84,7 @@ main {
     margin-left: 5px;
     border-radius: 20px;
     padding: 5px;
-    font-size: x-small;
+    font-size: smaller;
     color: white;
 }
 
