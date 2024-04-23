@@ -50,7 +50,6 @@ nav {
 .button-add.task {
     background-color: #6abdf4;
     border: 2px solid #6abdf4;
-
     color: white;
 }
 
@@ -67,7 +66,6 @@ main {
 
 .section-title::before {
     content: \25BC;
-
 }
 
 .section-list {
@@ -79,3 +77,42 @@ main {
 .section-item {
     padding: 10px;
 }
+
+.label {
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: x-small;
+    color: white;
+}
+
+.label.editorial {
+    background-color: #45abea;
+    border: 2px solid #45abea;
+}
+
+.label.q1-goals {
+    background-color: #9c71e4;
+    border: 2px solid #9c71e4;
+}
+
+.label.recruiting {
+    background-color: #64c0a9;
+    border: 2px solid #64c0a9;
+}
+
+.label.mobile {
+    background-color: #f3a842;
+    border: 2px solid #f3a842;
+}
+
+.label.website {
+    background-color: #d863a1;
+    border: 2px solid #d863a1;
+}
+
+.label.sales {
+    background-color: #b0c926;
+    border: 2px solid #b0c926;
+}
+
