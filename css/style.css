@@ -80,6 +80,19 @@ main {
     padding: 10px;
 }
 
+.done {
+    padding: 5px;
+    color: #83cebd;
+    border: 2px solid #83cebd;
+    border-radius: 50%;
+}
+
+.done.not {
+    color: #fadddc;
+    border: 2px solid #fadddc;
+
+}
+
 .label {
     margin-left: 5px;
     border-radius: 20px;
