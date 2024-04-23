@@ -24,3 +24,39 @@ h1 {
     display: inline-block;
     font-weight: 800;
 }
+
+/* regole nav  */
+#container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+nav {
+    padding: 10px;
+    margin-left: 40px;
+    border-bottom: 2px solid #f6f8f9;
+
+}
+
+.button-add {
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: smaller;
+}
+
+.button-add.task {
+    background-color: #6abdf4;
+    border: 2px solid #6abdf4;
+
+    color: white;
+}
+
+.button-add.section {
+    border: 2px solid #898d91;
+    color: #898d91;
+}
+
